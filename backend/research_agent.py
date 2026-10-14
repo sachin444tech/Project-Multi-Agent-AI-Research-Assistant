@@ -1,6 +1,6 @@
 
-from agent import ask_agent
-from research import search_web
+from backend.agent import ask_agent
+from backend.research import search_web
 
 
 def conduct_research(question: str) -> dict:
